@@ -1,0 +1,132 @@
+#footer .footer-content {
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap; }
+
+#footer .block {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  flex: 1;
+  flex-basis: 40%; }
+
+#convinced .container {
+  display: block;
+  padding-top: 5rem; }
+
+#convinced {
+  height: 25vh;
+  text-align: center; }
+
+.convinced-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem; }
+
+.convinced-text h5 {
+  font-size: 1rem;
+  margin-bottom: 1rem; }
+
+#convinced button {
+  padding: 0.5rem 1rem; }
+
+#clients {
+  padding-bottom: 0 !important; }
+
+#clients .container {
+  display: flex;
+  flex-wrap: wrap; }
+
+#clients .container .client-img {
+  flex: 1;
+  flex-basis: 20%;
+  margin-bottom: 3rem; }
+
+.client-img img {
+  width: 70%; }
+
+.client-img {
+  margin-bottom: 1rem; }
+
+#other .other-content {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+#other .other-content .services {
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  flex: 1;
+  flex-basis: 30%;
+  margin-left: 1rem; }
+
+#other .other-title .lead {
+  font-size: 1.2rem; }
+
+#value {
+  background: url("../images/full-2.jpg") center center/cover;
+  margin-bottom: 1rem;
+  height: 30vh; }
+
+#value .overlay2 .m-heading {
+  font-size: 1.5rem; }
+
+#value .overlay2 p {
+  font-size: 0.9rem; }
+
+#value .overlay2 .container > div {
+  margin-bottom: 0.2rem; }
+
+#page-statistics {
+  display: inline-block;
+  flex-wrap: wrap;
+  padding-bottom: 0; }
+  #page-statistics .statistics {
+    margin-bottom: 1.5rem;
+    width: 50%;
+    float: left; }
+    #page-statistics .statistics .l-heading {
+      font-size: 1.5rem; }
+    #page-statistics .statistics .m-heading {
+      font-size: 1rem; }
+
+.quotes {
+  display: block;
+  padding: 0 4rem; }
+  .quotes .quote {
+    text-align: center;
+    margin-left: 0; }
+
+.secrets {
+  display: block;
+  padding: 0 3rem !important; }
+
+.secret-img img {
+  display: none; }
+
+.service-cards {
+  display: block;
+  width: 100%; }
+  .service-cards .service {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-top: 1rem; }
+  .service-cards .service-content {
+    text-align: left; }
+
+.service-cards .service .service-content {
+  padding-right: 1.75rem;
+  padding-left: 2.75rem; }
+
+.secret-img img {
+  width: 100%; }
+
+#services .service-title .m-heading {
+  font-size: 1.2rem; }
+
+.business {
+  display: block; }
+
+.showcase .l-heading {
+  font-size: 1.7rem; }

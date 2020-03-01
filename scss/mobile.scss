@@ -1,0 +1,177 @@
+
+    #footer .footer-content{
+        display: block;
+        text-align: center;
+        
+    }
+#footer .block{
+    border-bottom: 0.5px dotted whitesmoke;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+ 
+}
+
+//convinced
+
+#convinced .container {
+    display: block;
+    padding-top: 5rem;
+  }
+
+  #convinced {
+    height: 40vh;
+    text-align: center;
+  }
+
+  .convinced-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .convinced-text h5 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #convinced button{
+ padding:0.5rem 1rem;
+  }
+
+  //clients
+  #clients .container{
+    display: block;
+    
+  }
+
+  .client-img img{
+    width: 70%;
+    }
+
+    .client-img{
+margin-bottom: 1rem;
+      
+      }
+
+      //other   
+      #other .other-content {
+display: block;
+      text-align: center;
+      }
+
+      #other .other-content .services {
+      
+       width: 100%;
+       margin-left: 0;
+        line-height: 1.7;
+        margin-bottom: 2rem;
+      }
+#other .other-title .lead{
+    font-size: 1.2rem;
+    
+}
+
+      //value
+
+      #value {
+        background: url("../images/full-2.jpg") center center/cover;
+        margin-bottom: 1rem;
+      }
+      #value .overlay2 .m-heading {
+
+        font-size: 1.5rem;
+      }
+
+      #value .overlay2 p {
+
+        font-size: 0.9rem;
+        }
+        #value .overlay2 .container > div {
+            margin-bottom: 0.2rem;
+          }
+//statistics
+
+#page-statistics {
+    display: inline-block;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+    .statistics {
+        margin-bottom: 1.5rem;
+        width: 50%;
+        float: left;
+        .l-heading{
+            font-size: 1.5rem;
+        }
+        .m-heading{
+            font-size: 1rem;
+        }
+      }
+  }
+
+  //quotes
+
+  .quotes {
+    display: block;
+    .quote{
+        text-align: center;
+        margin-left: 0;
+    }
+  }
+
+  //secret
+  .secrets {
+    display: block;
+   
+  }
+
+  .secret-img img {
+display: none;
+  }
+
+  
+//services
+
+.service-cards  {
+    display: block;
+    
+    .service{
+        margin-left: 0;
+    }
+  }
+
+  .secret-img img {
+    margin-left: 0;
+  }
+
+  #services .service-title .m-heading{
+font-size: 1.2rem;
+  }
+  //business
+
+.business {
+    display: block;
+  }
+
+
+  .showcase .l-heading{
+      font-size: 1.7rem;
+  }
+
+  .navbar ul {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    
+  }
+  .navbar ul li{
+    margin-bottom: 0.5rem;
+    margin-left: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.5px dotted grey;
+  }
+  .navbar{
+      display: block;
+      position: relative;
+  }
+  .dark-logo {
+    display: none;
+  }

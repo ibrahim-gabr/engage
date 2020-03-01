@@ -1,0 +1,422 @@
+@import "_utility";
+
+
+a {
+  text-decoration: none;
+  color: $fadeblack;
+}
+
+a:hover {
+  color: $green;
+}
+
+.current {
+
+  color: $green;
+}
+
+
+.l-heading {
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.m-heading {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.s-heading {
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+
+
+//header
+
+header .showcase {
+  background: url(../images/business-21.jpg) no-repeat center center/cover;
+  height: 80vh;
+
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.overlay div {}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+
+  img {
+    width: 50%;
+  }
+}
+
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+  color: $black;
+
+  li {
+    margin-left: 1rem;
+    font-size: 1rem;
+
+  }
+
+  li:hover {
+    color: $green
+  }
+}
+
+.light-logo {
+  display: none;
+}
+
+.overlay p {
+  color: $darkgrey;
+
+}
+
+
+
+
+//business
+
+.business {
+  display: flex;
+  color: $fadeblack;
+}
+
+.business-type {
+  flex: 1;
+  display: flex;
+  padding: 0 1rem;
+  line-height: 2;
+}
+
+.business-title {
+  margin-right: 1rem;
+  padding-top: 0.75rem;
+  color: $green;
+}
+
+//services
+
+#services {
+  display: flex;
+  flex-direction: column;
+  background-color: $whitesmoke;
+  color: $fadeblack;
+}
+
+#services .service-title h3 {
+  font-size: 2.2rem;
+  color: black;
+  font-weight: lighter;
+}
+
+#services > div {
+  flex: 1;
+}
+
+.service-cards {
+  display: flex;
+}
+
+.service-cards .service {
+  flex: 1;
+  margin-left: 1.5rem;
+  background-color: $white;
+  margin-bottom: 2rem;
+}
+
+.service-cards .service img {
+  max-width: 100%;
+
+  padding-bottom: 0.75rem;
+}
+
+.service-cards .service .service-content {
+  padding-bottom: 1rem;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  line-height: 2;
+}
+
+.service-cards .service .service-content p,
+.service-cards .service .service-content h5 {
+  color: $fadeblack;
+}
+
+
+
+//secrets
+
+.secrets {
+  display: flex;
+  line-height: 2;
+}
+
+.secrets>div {
+  flex: 1;
+}
+
+.secret-img img {
+  max-width: 100%;
+  margin-left: 2rem;
+}
+
+.secret-content {}
+
+.fa-ul {
+  line-height: 2.4;
+}
+
+.fa-ul,
+.secrets {
+  color: $fadeblack;
+}
+
+.fa-ul li i {
+  color: $green;
+}
+
+//quotes
+
+#quotes {
+  background-color: $whitesmoke;
+  text-align: center;
+}
+
+.quote-icon {
+  color: $green;
+
+}
+
+.quotes {
+  display: flex;
+  color: $fadeblack;
+  font-size: 0.95rem;
+}
+
+.quote p {
+  background-color: $white;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+
+}
+
+.quote {
+  flex: 1;
+  margin-left: 2rem;
+  text-align: left;
+  line-height: 1.7;
+}
+
+
+.quote .quote-tail {
+  padding-bottom: 2rem;
+}
+
+
+
+
+//statistics
+
+#page-statistics {
+  display: flex;
+}
+
+.statistics {
+  flex: 1;
+}
+
+.statistics .icon,
+.statistics .title {
+  color: $fadeblack;
+}
+
+//value
+
+#value {
+  background: url("../images/full-2.jpg") center center/cover;
+  height: 50vh;
+
+}
+
+#value .overlay2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+#value .overlay2 .container > div {
+  margin-bottom: 2rem;
+}
+
+#value .overlay2 .m-heading {
+  letter-spacing: 0.2rem !important;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+#value .overlay2 p {
+line-height: 1.8;
+font-weight: 100;
+font-size: 1.4rem;
+}
+
+
+//other
+#other .other-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+#other .other-title .lead{
+color: $fadeblack;
+}
+#other .other-title .l-heading{
+  font-size: 2rem;
+  color: #444;
+  }
+#other .other-content {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#other .other-content .services {
+  margin-left: 2rem;
+  width: 30%;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+#other .other-content .services h5 {
+  margin-bottom: 1rem;
+}
+
+#other .other-content .services {
+  color: $fadeblack;
+}
+
+
+//convinced
+#convinced {
+  background-color: $green;
+  height: 20vh;
+
+}
+
+.convinced-text {
+  color: $whitesmoke;
+}
+
+.convinced-text h3 {
+  font-size: 2.5rem;
+}
+
+.convinced-text h5 {
+  font-size: 1.5rem;
+}
+
+#convinced .container {
+  display: flex;
+
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#convinced .container .convinced-text {}
+
+//footer
+
+#footer {
+  background-color: #1f2021;
+  text-align: left;
+}
+
+#footer .footer-content {
+display: flex;
+width: 75%;
+margin: auto;
+justify-content: space-around;
+}
+
+#footer .block {
+flex: 1;
+margin-left: 2rem;
+color: #58606b;
+line-height: 2.3;
+}
+
+#footer .block h4{
+color: $whitesmoke ;
+  }
+
+  #footer .block p{
+    line-height: 1.9;
+    padding-right: 1rem;
+    font-size: 0.9rem;
+      }
+
+
+      #footer .block li{
+    list-style: none;
+        }
+
+        #footer .hours li:before,
+        #footer .pages li:before
+        {
+          content: ">";
+          color: grey;
+          padding-right: 1rem;
+        }
+//clients
+#clients .container{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+#clients {
+background-color: #f3f3f3f3;
+ 
+}
+.client-img{
+  flex: 1;
+  margin-left:4rem;
+
+}
+
+.client-img img{
+width: 100%;
+  
+}
+
+
+
+
+
